@@ -3,9 +3,10 @@ import React, {useState} from 'react';
 import AppText from '../../Componentes/AppText';
 import CardButton from '../../Componentes/CardButton';
 import CardInput from '../../Componentes/CardInput';
-import IconButton from '../../Componentes/IconButton';
 import {useDispatch} from 'react-redux';
 import {setCpf} from '../../../store/slices/cpfSlice';
+import IconButton from '../../Componentes/IconButton';
+import SvgTeste from '../../../svgs/ajustes.svg';
 
 const ScreenAuthenticateCPF = ({navigation}) => {
   const dispatch = useDispatch();
@@ -55,7 +56,7 @@ const ScreenAuthenticateCPF = ({navigation}) => {
     return true;
   }
 
-  const handleOnChangeText: (text: string) => void = text => {
+  const handleOnChangeText = text => {
     const cleanedText = text.replace(/\D/g, '');
 
     const formattedCPF = cleanedText
@@ -116,6 +117,7 @@ const ScreenAuthenticateCPF = ({navigation}) => {
         color={'#ef801d'}
         style={styles.containerQuestionButton}
       />
+
       <View style={styles.viewHeaderBank}>
         <AppText size="xhuge" variant="bold">
           Bank Jojo Adventures
