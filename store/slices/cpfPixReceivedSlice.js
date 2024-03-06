@@ -11,11 +11,9 @@ const cpfPixReceivedSlice = createSlice({
   reducers: {
     setCpfPixReceived(state, action) {
       state.cpfPixReceived = action.payload;
-      console.log('To aqui dentro do slice', action.payload);
     },
     setNamePixReceived(state, action) {
       state.namePixReceived = action.payload;
-      console.log('To no store', action.payload);
     },
   },
 });
