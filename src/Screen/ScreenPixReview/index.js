@@ -8,8 +8,11 @@ import CardCheckFavorite from '../../Componentes/CardCheckFavorite';
 import CardTransictionConfirmation from '../../Componentes/CardTransictionConfirmation';
 import axios from 'axios';
 import formatCurrency from '../../utils/formatCurrency';
+import {useSelector} from 'react-redux';
 
 const ScreenPixReview = ({navigation}) => {
+  const balance = useSelector(state => state.balance.balance);
+
   const [showBalance, setShowBalance] = useState(false);
   const [userReceivedPixData, setuserReceivedPixData] = useState('');
 
