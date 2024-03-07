@@ -8,8 +8,7 @@ import CardTransactionStatement from '../../Componentes/CardTransactionStatement
 import CardButton from '../../Componentes/CardButton';
 import formatCurrency from '../../utils/formatCurrency';
 
-const ScreenTransactionReceipt = ({route, navigation}) => {
-  const {transferApiResponse} = route.params || {};
+const ScreenTransactionReceipt = ({navigation}) => {
   const {
     userReceivedPixData,
     creditUserCpf,
@@ -21,13 +20,13 @@ const ScreenTransactionReceipt = ({route, navigation}) => {
 
   console.log(userReceivedPixData);
   const onPressBack = () => {
-    navigation.navigate('ScreenSelectValuePix', route.params);
+    navigation.navigate('ScreenSelectValuePix');
   };
   const onPresshome = () => {
-    navigation.navigate('ScreenExtractAccount', route.params);
+    navigation.navigate('ScreenExtractAccount');
   };
   const onPressGoNewPix = () => {
-    navigation.navigate('ScreenSelectPix', route.params);
+    navigation.navigate('ScreenSelectPix');
   };
   return (
     <ScrollView style={styles.container}>

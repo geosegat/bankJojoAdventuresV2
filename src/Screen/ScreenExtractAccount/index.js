@@ -24,7 +24,6 @@ const ScreenExtractAccount = ({navigation}) => {
   const [showBalance, setShowBalance] = useState(false);
   const cpf = useSelector(state => state.cpf.cpf);
   const token = useSelector(state => state.token.token);
-  console.log(token);
 
   const onPress = () => {
     Alert.alert('Você ta no Bank Jojo Adventures!!!');
