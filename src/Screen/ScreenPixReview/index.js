@@ -88,7 +88,7 @@ const ScreenPixReview = ({navigation}) => {
             style={styles.leftIcon}
             onPress={onPressShowBalance}
             iconName={'eye-closed'}
-            color={'orange'}
+            color={''}
             width={25}
             height={25}
           />
