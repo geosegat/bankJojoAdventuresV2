@@ -99,7 +99,7 @@ const ScreenPixReview = ({navigation}) => {
           <View style={styles.styleIcon$}>
             <IconButton
               isDisabled
-              iconName={''}
+              iconName={'pagar'}
               width={30}
               height={30}
               color={'#15171b'}
