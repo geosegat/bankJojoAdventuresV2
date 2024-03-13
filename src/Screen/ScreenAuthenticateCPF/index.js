@@ -1,4 +1,4 @@
-import {StyleSheet, TouchableOpacity, View} from 'react-native';
+import {Alert, StyleSheet, TouchableOpacity, View} from 'react-native';
 import React, {useState} from 'react';
 import AppText from '../../Componentes/AppText';
 import CardButton from '../../Componentes/CardButton';
@@ -107,6 +107,7 @@ const ScreenAuthenticateCPF = ({navigation}) => {
   const onPressButtonTeste = () => {
     setTextInput('114.988.187-90');
   };
+
   return (
     <View style={styles.container}>
       <IconButton
