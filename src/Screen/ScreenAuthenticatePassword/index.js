@@ -35,22 +35,7 @@ const ScreenAuthenticatePassword = ({navigation}) => {
   };
 
   const onPressValidateAccount = () => {
-    axios
-      .post('http://10.0.0.158:3000/login', {
-        login: cpf,
-        password: inputPass,
-      })
-      .then(function (response) {
-        if (response.data.status == 'success') {
-          dispatch(setToken(response.data.data.jwt));
-          navigation.navigate('ScreenExtractAccount');
-
-          return;
-        }
-      })
-      .catch(function (error) {
-        setLabelMsg(error.response.data.error);
-      });
+    navigation.navigate('ScreenExtractAccount');
   };
 
   const onPressButtonTeste = () => {
