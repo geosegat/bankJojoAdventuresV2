@@ -26,22 +26,8 @@ const ScreenSelectPix = ({navigation}) => {
     navigation.navigate('ScreenSendPix');
   };
 
-  const onPressScreenPixReview = async () => {
-    try {
-      const response = await axios.get('http://10.0.0.158:3000/user/pix', {
-        params: {pixKey: textInput},
-      });
-      if (response.data.status === 'success') {
-        console.log(response.data.data.name);
-        dispatch(setNamePixReceived(response.data.data.name));
-        dispatch(setCpfPixReceived(textInput));
-        navigation.navigate('ScreenSelectValuePix');
-      } else {
-        Alert.alert(response.data.error);
-      }
-    } catch (error) {
-      console.error('Ocorreu um erro:', error);
-    }
+  const onPressScreenPixReview = () => {
+    navigation.navigate('ScreenSelectValuePix');
   };
 
   const handleColorChange = text => {
