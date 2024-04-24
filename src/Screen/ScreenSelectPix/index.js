@@ -23,7 +23,7 @@ const ScreenSelectPix = ({navigation}) => {
   const [showIconX, setShowIconX] = useState(false);
 
   const onPressBack = () => {
-    navigation.navigate('ScreenSendPix');
+    navigation.navigate('');
   };
 
   const onPressScreenPixReview = () => {
