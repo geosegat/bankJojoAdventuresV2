@@ -27,7 +27,7 @@ const ScreenSelectPix = ({navigation}) => {
   };
 
   const onPressScreenPixReview = () => {
-    navigation.navigate('ScreenSelectValuePix');
+    navigation.navigate('');
   };
 
   const handleColorChange = text => {
