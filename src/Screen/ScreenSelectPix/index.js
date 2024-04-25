@@ -38,7 +38,7 @@ const ScreenSelectPix = ({navigation}) => {
       setIsDisabled(false);
       setShowIconX(true);
     } else {
-      setButtonColor('#');
+      setButtonColor('#dedfe4');
       setLabelColor('#b7b8bc');
       setIsDisabled(true);
       setShowIconX(false);
