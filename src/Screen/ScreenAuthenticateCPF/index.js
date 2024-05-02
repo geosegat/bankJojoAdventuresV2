@@ -153,7 +153,7 @@ const ScreenAuthenticateCPF = ({navigation}) => {
         style={styles.cardButtonStyleNext}
       />
       <TouchableOpacity style={styles.buttonNewAccount}>
-        <AppText color="#" variant="bold">
+        <AppText color="#ff7a01" variant="bold">
           Abrir conta completa e gratuitaa
         </AppText>
       </TouchableOpacity>
