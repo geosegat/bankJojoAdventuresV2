@@ -148,7 +148,7 @@ const ScreenAuthenticateCPF = ({navigation}) => {
       <CardButton
         disabledLoading={isLoading}
         onPress={onPress}
-        label={'Continuar'}
+        label={''}
         colorLabel={'white'}
         style={styles.cardButtonStyleNext}
       />
