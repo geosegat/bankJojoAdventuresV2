@@ -148,8 +148,8 @@ const ScreenAuthenticateCPF = ({navigation}) => {
       <CardButton
         disabledLoading={isLoading}
         onPress={onPress}
-        label={''}
-        colorLabel={''}
+        label={'Continuar'}
+        colorLabel={'white'}
         style={styles.cardButtonStyleNext}
       />
       <TouchableOpacity style={styles.buttonNewAccount}>
