@@ -1,0 +1,112 @@
+[
+  {
+    "nome_completo": "Ana Clara Silva",
+    "cpf": "123.456.789-01",
+    "agencia": "1234",
+    "conta": "56789-0",
+    "banco": "Nubank",
+    "saldo_disponivel": 1500.75,
+    "telefone": "(11) 91234-5678",
+    "email": "ana.clara@gmail.com",
+    "chave_pix": "123.456.789-01"
+  },
+  {
+    "nome_completo": "Bruno Pereira",
+    "cpf": "987.654.321-09",
+    "agencia": "4321",
+    "conta": "09876-5",
+    "banco": "Inter",
+    "saldo_disponivel": 2500.5,
+    "telefone": "(21) 98765-4321",
+    "email": "bruno.pereira@yahoo.com",
+    "chave_pix": "(21) 98765-4321"
+  },
+  {
+    "nome_completo": "Carla Menezes",
+    "cpf": "123.987.654-32",
+    "agencia": "5678",
+    "conta": "12345-6",
+    "banco": "Itaú",
+    "saldo_disponivel": 3200.0,
+    "telefone": "(31) 93456-7890",
+    "email": "carla.menezes@hotmail.com",
+    "chave_pix": "carla.menezes@hotmail.com"
+  },
+  {
+    "nome_completo": "Daniel Rocha",
+    "cpf": "456.789.123-45",
+    "agencia": "8765",
+    "conta": "54321-0",
+    "banco": "Bradesco",
+    "saldo_disponivel": 1100.25,
+    "telefone": "(41) 95678-1234",
+    "email": "daniel.rocha@outlook.com",
+    "chave_pix": "456.789.123-45"
+  },
+  {
+    "nome_completo": "Eduarda Lima",
+    "cpf": "321.654.987-54",
+    "agencia": "3456",
+    "conta": "67890-1",
+    "banco": "Santander",
+    "saldo_disponivel": 2700.75,
+    "telefone": "(51) 94321-5678",
+    "email": "eduarda.lima@gmail.com",
+    "chave_pix": "eduarda.lima@gmail.com"
+  },
+  {
+    "nome_completo": "Felipe Andrade",
+    "cpf": "654.321.987-76",
+    "agencia": "6543",
+    "conta": "21098-7",
+    "banco": "Caixa",
+    "saldo_disponivel": 3500.5,
+    "telefone": "(61) 91234-8765",
+    "email": "felipe.andrade@uol.com.br",
+    "chave_pix": "felipe.andrade@uol.com.br"
+  },
+  {
+    "nome_completo": "Gabriela Souza",
+    "cpf": "789.123.456-78",
+    "agencia": "7890",
+    "conta": "65432-1",
+    "banco": "Banco do Brasil",
+    "saldo_disponivel": 4000.0,
+    "telefone": "(71) 93456-7891",
+    "email": "gabriela.souza@yahoo.com",
+    "chave_pix": "(71) 93456-7891"
+  },
+  {
+    "nome_completo": "Hugo Almeida",
+    "cpf": "987.456.123-89",
+    "agencia": "0987",
+    "conta": "32109-8",
+    "banco": "Nubank",
+    "saldo_disponivel": 1200.0,
+    "telefone": "(81) 95678-1235",
+    "email": "hugo.almeida@gmail.com",
+    "chave_pix": "987.456.123-89"
+  },
+  {
+    "nome_completo": "Isabela Martins",
+    "cpf": "654.789.321-90",
+    "agencia": "5678",
+    "conta": "87654-3",
+    "banco": "Inter",
+    "saldo_disponivel": 1800.75,
+    "telefone": "(91) 97865-4321",
+    "email": "isabela.martins@hotmail.com",
+    "chave_pix": "isabela.martins@hotmail.com"
+  },
+  {
+    "nome_completo": "João Pedro Costa",
+    "cpf": "321.987.654-12",
+    "agencia": "3456",
+    "conta": "12345-6",
+    "banco": "Itaú",
+    "saldo_disponivel": 2200.5,
+    "telefone": "(71) 94321-8765",
+    "email": "joao.costa@outlook.com",
+    "chave_pix": "(71) 94321-8765"
+  }
+]
