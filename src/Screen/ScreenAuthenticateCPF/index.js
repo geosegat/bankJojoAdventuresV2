@@ -104,7 +104,7 @@ const ScreenAuthenticateCPF = ({navigation}) => {
   };
 
   const onPressButtonTeste = () => {
-    setTextInput('114.988.187-90');
+    setTextInput('468.609.210-80');
   };
 
   return (
