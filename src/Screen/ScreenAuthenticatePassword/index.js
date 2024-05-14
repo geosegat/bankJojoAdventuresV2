@@ -5,9 +5,8 @@ import CardMockCpf from '../../Componentes/CardMockCpf';
 import CardButton from '../../Componentes/CardButton';
 import CardInput from '../../Componentes/CardInput';
 import IconButton from '../../Componentes/IconButton';
-import axios from 'axios';
 import {useSelector, useDispatch} from 'react-redux';
-import {setToken} from '../../../store/slices/tokenSlice';
+import bancoDeDados from '../../json/bancoDeDados.json';
 
 const ScreenAuthenticatePassword = ({navigation}) => {
   const dispatch = useDispatch();
