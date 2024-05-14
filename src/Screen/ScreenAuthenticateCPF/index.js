@@ -6,7 +6,6 @@ import CardInput from '../../Componentes/CardInput';
 import {useDispatch} from 'react-redux';
 import {setCpf} from '../../../store/slices/cpfSlice';
 import IconButton from '../../Componentes/IconButton';
-import SvgTeste from '../../../svgs/ajustes.svg';
 
 const ScreenAuthenticateCPF = ({navigation}) => {
   const dispatch = useDispatch();
