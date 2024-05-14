@@ -34,7 +34,11 @@ const ScreenAuthenticatePassword = ({navigation}) => {
   };
 
   const onPressValidateAccount = () => {
-    navigation.navigate('ScreenExtractAccount');
+    if (cpf === '468.609.210-80') {
+      console.log('oi');
+    } else {
+      console.log(cpf);
+    }
   };
 
   const onPressButtonTeste = () => {
