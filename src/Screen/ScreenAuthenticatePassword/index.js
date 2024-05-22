@@ -26,7 +26,7 @@ const ScreenAuthenticatePassword = ({navigation}) => {
   };
 
   const onPressBack = () => {
-    navigation.navigate('');
+    navigation.navigate('ScreenAuthenticateCPF');
   };
 
   const handleOnChangeText = text => {
