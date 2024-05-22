@@ -57,7 +57,7 @@ const ScreenSelectPix = ({navigation}) => {
     const content = await Clipboard.getString();
     setTextInput(content);
     setButtonColor('#ff7a01');
-    setLabelColor('');
+    setLabelColor('#fff');
     setIsDisabled(false);
     setShowIconX(true);
   };
