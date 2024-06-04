@@ -17,6 +17,7 @@ const ScreenAuthenticatePassword = ({navigation}) => {
   const [inputPass, setInputPass] = useState('');
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState(undefined);
+
   useEffect(() => {
     setLoading(true);
   }, []);
